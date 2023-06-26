@@ -15,7 +15,7 @@ const App = () => {
           }}
         />
       </form>
-      {name && <h2>Hello {name}!</h2>}
+      {name && <p>Hello {name}!</p>}
     </div>
   );
 }
